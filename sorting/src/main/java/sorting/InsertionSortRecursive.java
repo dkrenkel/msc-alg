@@ -19,12 +19,12 @@ public class InsertionSortRecursive implements Sortable {
 		if (n > 1) {
 			insertionSort(array, n - 1);
 			int j = n - 1;
-			int valor = array[j];
-			while (j > 0 && array[j - 1] > valor) {
+			int value = array[j];
+			while (j > 0 && array[j - 1] > value) {
 				array[j] = array[j - 1];
 				j--;
 			}
-			array[j] = valor;
+			array[j] = value;
 		}
 
 	}

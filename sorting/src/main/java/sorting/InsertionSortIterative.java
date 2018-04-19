@@ -18,12 +18,12 @@ public class InsertionSortIterative implements Sortable {
 	private void insertionSort(int[] array, int n) {
 		for (int i = 1; i < n; i++) {
 			int j = i;
-			int valor = array[i];
-			while (j > 0 && array[j - 1] > valor) {
+			int value = array[i];
+			while (j > 0 && array[j - 1] > value) {
 				array[j] = array[j - 1];
 				j--;
 			}
-			array[j] = valor;
+			array[j] = value;
 		}
 	}
 
