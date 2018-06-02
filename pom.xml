@@ -13,6 +13,7 @@
 
 	<modules>
 		<module>sorting</module>
+		<module>datastructures</module>
 	</modules>
 
 	<parent>
