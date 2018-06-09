@@ -10,6 +10,10 @@ package tree;
 class Element<T extends Comparable<?>> {
 
 	private T record;
+	
+	Element(T record) {
+		this.record = record;
+	}
 
 	public T getRecord() {
 		return record;
