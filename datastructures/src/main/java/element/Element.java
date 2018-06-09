@@ -1,17 +1,25 @@
 /**
  * 
  */
-package tree;
+package element;
 
 /**
  * @author David Krenkel <david.melo1992@gmail.com>
  *
  */
-class Element<T extends Comparable<?>> {
+public class Element<T extends Comparable<?>> {
 
 	private T record;
 	
 	Element(T record) {
+		this.record = record;
+	}
+
+	public Element() {
+		super();
+	}
+
+	public Element(T record) {
 		this.record = record;
 	}
 

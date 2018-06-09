@@ -3,6 +3,8 @@
  */
 package tree;
 
+import element.Element;
+
 /**
  * @author David Krenkel <david.melo1992@gmail.com>
  *
