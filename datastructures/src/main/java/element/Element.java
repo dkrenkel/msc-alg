@@ -10,10 +10,6 @@ package element;
 public class Element<T extends Comparable<?>> {
 
 	private T record;
-	
-	Element(T record) {
-		this.record = record;
-	}
 
 	public Element() {
 		super();
